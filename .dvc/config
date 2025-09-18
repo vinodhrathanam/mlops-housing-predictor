@@ -1,0 +1,6 @@
+[core]
+    remote = datastore
+['remote "my-datastore"']
+    url = s3://my-dvc-data-bucket
+['remote "datastore"']
+    url = s3://my-dvc-data-bucket
